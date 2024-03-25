@@ -13,7 +13,10 @@
 <details>
   <summary>Выводы, рекомендации и подробное описание здесь</summary>
   <p>Требования canvas:<br>
-![канвас](https://github.com/marina-bor-23/tableau/assets/164322986/2aee855b-bb10-4b11-879d-a836bf2a4079)
+
+<br>
+
+![канвас](https://github.com/marina-bor-23/tableau/assets/164322986/7ad376fa-e6dc-40ae-a53f-10f8164c612d)
 
 
 <br>
