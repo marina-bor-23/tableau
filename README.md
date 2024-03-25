@@ -1,6 +1,6 @@
 <h1 align="center"> TABLEAU </h1> 
 
-<h3 align="center"> Дашборды, итоговый проект (pet-project), домашние задания с курса, проверка гипотез | Dashboards, final project (pet-project), homework from the course, hypothesis testing </h3>
+<h3 align="center"> Дашборды, итоговый проект (pet-project), домашние задания с курса, проверка гипотез<br> | Dashboards, final project (pet-project), homework from the course, hypothesis testing </h3>
 
 Проекты находятся в онлайн-формате в моем <a href="https://public.tableau.com/app/profile/marinaborisenko/vizzes/">Tableau Public аккаунте.</a> 
 <br>
