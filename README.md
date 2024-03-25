@@ -9,6 +9,7 @@
 Это итоговый проект с курса по анализу данных. Находится он в файле "pet-project.twbx" или в <a href="https://public.tableau.com/views/_17112963223430/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.</a> Работа состояла в том, чтобы проанализировать базу данных магазина, продающего по всей России технику от флешек USB до мониторов. Необходимо было найти точки роста и точки убытка (категории, регионы, орпделённые клиенты, всё, что приносит больше убытка, чем прибыли). База данных была предоставлена в файле формата .xlsx от заказчицы, она находится в файле под названием "database.xlsx". У неё же я собрала требования и показала ей намеченный скетч дашбордов.   
 <p>Требования canvas:<br>
 
+![канвас пустой](https://github.com/marina-bor-23/tableau/assets/164322986/e5dda1bc-de5b-4ac0-be14-f541a6933da0)
 
 
 ![канвас](https://github.com/marina-bor-23/tableau/assets/164322986/7ad376fa-e6dc-40ae-a53f-10f8164c612d)
@@ -46,9 +47,11 @@ The projects are in online format in my <a href="https://public.tableau.com/app/
 This is the final project from the data analysis course. It is located in the file "pet-project.twbx" or in an <a href="https://public.tableau.com/views/_17112963223430/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">online format.</a> The job was to analyze the database of a store selling equipment from USB flash drives to monitors throughout Russia. It was necessary to find points of growth and points of loss (categories, regions, dedicated customers, anything that brings more loss than profit). The database was provided in a file format.xlsx from the customer, it is in a file called "database.xlsx". I gathered the requirements from her and showed her the planned sketch of dashboards. 
 <p>Canvas requirements:<br>
 
+![канвас пустой eng](https://github.com/marina-bor-23/tableau/assets/164322986/3ecb5900-3e10-4357-afc4-1800813e5e06)
 
 
-![канвас](https://github.com/marina-bor-23/tableau/assets/164322986/7ad376fa-e6dc-40ae-a53f-10f8164c612d)
+![canvas eng](https://github.com/marina-bor-23/tableau/assets/164322986/cc88db05-e551-456b-b3ee-b9b888b0d7e7)
+
 
 
 
