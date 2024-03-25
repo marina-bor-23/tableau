@@ -50,7 +50,8 @@ This is the final project from the data analysis course. It is located in the fi
 ![канвас пустой eng](https://github.com/marina-bor-23/tableau/assets/164322986/3ecb5900-3e10-4357-afc4-1800813e5e06)
 
 
-![canvas eng](https://github.com/marina-bor-23/tableau/assets/164322986/cc88db05-e551-456b-b3ee-b9b888b0d7e7)
+![canvas eng](https://github.com/marina-bor-23/tableau/assets/164322986/b15d2e96-d8b9-42d3-8e1d-6d600f78ce46)
+
 
 
 
