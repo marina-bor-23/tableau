@@ -77,14 +77,18 @@ Thus, despite the positive dynamics and growth in all major KPIs, profits could 
 **Дашборды: | Dashboards**<br>
 
 Общий: | General:<br>
+<br>
 ![general](https://github.com/marina-bor-23/tableau/assets/164322986/d6bb56c3-1c55-4d28-adc0-3d9b36825fee) <br>
 
 По категориям: | Category: <br>
+<br>
 ![category](https://github.com/marina-bor-23/tableau/assets/164322986/55282623-94e8-492e-affe-a5551437f130) <br>
 
 По регионам: | Regions: <br>
+<br>
 ![regions](https://github.com/marina-bor-23/tableau/assets/164322986/e45b1789-ead0-4445-a0b3-f7aaf1af8465) <br>
 
 Гипотезы: | Hypotesis: <br>
+<br>
 ![hypotesis](https://github.com/marina-bor-23/tableau/assets/164322986/fb78ac5f-f8a0-499e-9387-687af89923be) <br>
 
