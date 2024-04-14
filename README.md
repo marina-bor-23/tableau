@@ -4,7 +4,7 @@
 
 Проекты находятся в онлайн-формате в моем <a href="https://public.tableau.com/app/profile/marinaborisenko/vizzes/">Tableau Public аккаунте.</a> 
 <br>
-<h3 align="left">  1. Pet-project.  </h3> 
+<h3 align="left">  1. Pet-project №1.  </h3> 
 
 Это итоговый проект с курса по анализу данных. Находится он в файле "pet-project.twbx" или в <a href="https://public.tableau.com/views/_17112963223430/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.</a> Работа состояла в том, чтобы проанализировать базу данных магазина, продающего по всей России технику от флешек USB до мониторов. Необходимо было найти точки роста и точки убытка (категории, регионы, орпделённые клиенты, всё, что приносит больше убытка, чем прибыли). База данных была предоставлена в файле формата .xlsx от заказчицы, она находится в файле под названием "database.xlsx". У неё же я собрала требования и показала ей намеченный скетч дашбордов.   
 <p>Требования canvas:<br>
@@ -92,3 +92,63 @@ Thus, despite the positive dynamics and growth in all major KPIs, profits could 
 <br>
 ![hypotesis](https://github.com/marina-bor-23/tableau/assets/164322986/fb78ac5f-f8a0-499e-9387-687af89923be) <br>
 
+
+<br>
+<br>
+<br>
+<br>
+
+
+<h3 align="left">  2. Pet-project №2.  </h3> 
+
+Датафрейм был предоставлен VK для тестового задания для стажировки. Находится он в файле "advertising campaign.twbx" или в <a href="https://public.tableau.com/views/advertisingcampaign/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.</a> Работа состояла в том, чтобы проанализировать базу данных компании по проведённым рекламным кампаниям, построить дашборд для команды. База данных была предоставлена в файле формата .xlsx, она находится в файле под названием "database add.xlsx". <br>
+<br>
+
+Так как period в текстовом формате, в питоне я сделала его в виде цифры и отобразила как «месяц», чтобы удобнее было строить параметры в Tableau.<br>
+
+**Описание:** <br>
+•	Работа содержит 1 дашборд, построенный на основе 14 листов, а также 2 листа, отражающих коэффициенты корреляции между данными. Наверху два фильтра по датам, один предназначен для KPI (Month KPI), второй для трех графиков (Month chart).<br>
+•	Основные KPI: количество проведённых кампаний, затраты на кампании (сумма в мес.), затраты на кампании (среднее в мес.), кол-во показов (всего в мес.), кол-во показов (среднее в мес.), кол-во кликов (всего в мес.), кол-во кликов (среднее в мес.), конверсий (действий) (всего в мес.), конверсий (действий) (среднее кол-во действий в мес.). При наведении информация отсутствует.<br>
+•	Графики: три барчарта, первый справа наверху показывает конверсии по самым затратным кампаниям (справа в тысячах сумма затрат на каждую кампанию, топ-20 затратных кампаний выделены голубым цветом, можно пролистать вниз и увидеть информацию по всем проведённым кампаниям); второй слева снизу отражает конверсию по наиболее просматриваемым кампаниям (справа в тысячах сумма просмотров по каждой кампании, топ-20 самых просматриваемых кампаний выделены голубым цветом, можно пролистать вниз и увидеть информацию по всем проведённым кампаниям); третий справа снизу показывает конверсию по наиболее кликабельным кампаниям (справа в тысячах сумма кликов по каждой кампании, топ-20 самых кликабельных кампаний выделены голубым цветом, можно пролистать вниз и увидеть информацию по всем проведённым кампаниям. При наведении на графики отражается информация по кликам, показам и затратам по каждой кампании.<br>
+<br>
+<br>
+**Выводы:** <br>
+•	Затраты. Много затрачивается на рекламу, а результат низкий. Исходя из барчарта конверсий по затратам, самые дорогие кампании принесли всего 2-3 целевых действия, в то время как на кампании с наибольшим кол-вом конверсий было потрачено в два раза меньше средств, они лежат, в основном, во второй половине графика снизу. Результаты по 2-3 целевых действия удавалось добиться и с затратами ниже 7к, на кампании с самым большим кол-вом конверсий было потрачено 14-43к, нужно анализировать их сущность (в чем они заключались) и стараться проводить похожие, с максимумом результата и минимумом затрат на кампанию. <br>
+•	Просмотры. Для наибольших конверсий достаточно 63-183к просмотров, по графику слева снизу можно увидеть, что гипотеза о том, что чем больше просмотров, тем более целевых действий, отклоняется, т.к. топ-20 по просмотрам кампаний выдают около 2 целевых действий. Т.к. коэф. корреляции между затратами и просмотрами = 0,98, данные выглядят настоящими и можно сделать вывод о том, что ситуация с просмотрами идентична ситуации с затратами. <br>
+•	Клики. Исходя из того, что коэф. Корреляции между просмотрами и кликами = 0,97, данные выглядят настоящими и можно сделать вывод о том, что ситуация с кликами идентична ситуации с просмотрами. <br>
+•	Исходя из вышеперечисленных выводов, каждая последующая метрика вытекает из предыдущей, и пока ситуация с затратами не улучшится, остальные метрики так же не изменятся.<br>
+•	CTR — показатель кликабельности крайне низок, CPA – показатель стоимости целевого действия чуть выше и он вырос на 122% в феврале, однако, все еще остается довольно низким.<br>
+•	Для улучшения ситуации следует проанализировать те кампании, кол-во конверсий которых = 4-6 включительно (что было в рекламе, где размещалась, сколько дней, часов, на какую аудиторию и пр.) и на примере этих кампаний проводить все последующие для наибольшей результативности.<br>
+
+<br>
+<br>
+<br>
+
+<h3 align="left">  2. Pet-project №2.  </h3> 
+
+The dataframe was provided by VK for a test assignment for an internship. It is located in the file "advertising campaign.twbx" or in <a href="https://public.tableau.com/views/advertisingcampaign/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.The job was to analyze the company's database of conducted advertising campaigns and build a dashboard for the team. The database was provided in a file format.xlsx, it is located in a file called "database add.xlsx". <br>
+<br>
+
+Since the period is in text format, in python I made it in the form of a number and displayed it as a "month" so that it would be more convenient to build parameters in Tableau.<br>
+
+**Description:** <br>
+• The work contains 1 dashboard based on 14 sheets, as well as 2 sheets reflecting the correlation coefficients between the data. There are two date filters at the top, one for KPI (Month KPI), the second for three charts (Month chart).<br>
+• Key KPIs: number of campaigns conducted, campaign costs (amount per month), campaign costs (average per month), number of impressions (total per month), number of impressions (average per month), number of clicks (total per month), number of clicks (average per month), conversions (actions) (total per month), conversions (actions) (average number of actions per month). There is no information when hovering.<br>
+• Graphs: three barcharts, the first one on the top right shows conversions for the most expensive campaigns (on the right in thousands the amount of costs for each campaign, the top 20 expensive campaigns are highlighted in blue, you can scroll down and see information on all campaigns conducted); the second one on the bottom left reflects the conversion for the most viewed campaigns (on the right in thousands the amount views for each campaign, the top 20 most viewed campaigns are highlighted in blue, you can scroll down and see information on all campaigns conducted); the third one from the bottom right shows the conversion rate for the most clickable campaigns (on the right, in thousands, the amount of clicks for each campaign, the top 20 most clickable campaigns are highlighted in blue, you can scroll down and see information on all campaigns conducted. When you hover over the charts, information on clicks, impressions, and costs for each campaign is displayed.<br>
+<br>
+<br>
+**Conclusions:** <br>
+• Costs. A lot is spent on advertising, but the result is low. Based on the cost barchart of conversions, the most expensive campaigns brought only 2-3 targeted actions, while half as much money was spent on campaigns with the highest number of conversions, they lie mainly in the second half of the graph from the bottom. The results of 2-3 target actions were achieved with costs below 7k, 14-43k were spent on campaigns with the largest number of conversions, it is necessary to analyze their essence (what they were) and try to carry out similar ones, with maximum results and minimum campaign costs. <br>
+• Views. For the largest conversions, 63-183k views are enough, according to the graph on the bottom left, you can see that the hypothesis that the more views, the more targeted actions, is rejected, because the top 20 campaign views give out about 2 targeted actions. Since the coefficient of correlation between costs and views = 0.98, the data they look real and we can conclude that the viewing situation is identical to the cost situation. <br>
+• Clicks. Based on the fact that the coef. Correlations between views and clicks = 0.97, the data looks real and it can be concluded that the situation with clicks is identical to the situation with views. <br>
+• Based on the above conclusions, each subsequent metric follows from the previous one, and until the cost situation improves, the remaining metrics will not change either.<br>
+• CTR — the click–through rate is extremely low, CPA - the cost of a target action is slightly higher and it increased by 122% in February, however, it still remains quite low.<br>
+• To improve the situation, you should analyze those campaigns with the number of conversions = 4-6 inclusive (what was in the advertisement, where it was placed, how many days, hours, for which audience, etc.) and use the example of these campaigns to carry out all subsequent ones for maximum effectiveness.<br>
+<br>
+<br>
+**Дашборд: | Dashboard**<br>
+
+Общий: | General:<br>
+<br>
+![скрин дашборда](https://github.com/marina-bor-23/tableau/assets/164322986/dd425c53-06cd-4c6d-ac2a-f33638e7a071) <br>
+<br>
