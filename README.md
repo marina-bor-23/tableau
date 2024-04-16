@@ -126,7 +126,7 @@ Thus, despite the positive dynamics and growth in all major KPIs, profits could 
 
 <h3 align="left">  2. Pet-project №2.  </h3> 
 
-The dataframe was provided by VK for a test assignment for an internship. It is located in the file "advertising campaign.twbx" or in <a href="https://public.tableau.com/views/advertisingcampaign/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.The job was to analyze the company's database of conducted advertising campaigns and build a dashboard for the team. The database was provided in a file format.xlsx, it is located in a file called "database add.xlsx". <br>
+The dataframe was provided by VK for a test assignment for an internship. It is located in the file "advertising campaign.twbx" or in <a href="https://public.tableau.com/views/advertisingcampaign/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.</a> The job was to analyze the company's database of conducted advertising campaigns and build a dashboard for the team. The database was provided in a file format.xlsx, it is located in a file called "database add.xlsx". <br>
 <br>
 
 Since the period is in text format, in python I made it in the form of a number and displayed it as a "month" so that it would be more convenient to build parameters in Tableau.<br>
