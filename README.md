@@ -7,8 +7,8 @@
 
 <h3 align="left">  Дашборды с предыдущего места работы  </h3> 
 
-Дашборды-отчеты после окончания акций от отдела маркетинга: ![дашборды](https://cloud.mail.ru/public/GiM2/1FaU55wiw) <br>
-
+Дашборды-отчеты после окончания акций от отдела маркетинга: <a href="https://cloud.mail.ru/public/GiM2/1FaU55wiw">дашборды <br>
+ 
 
 
 <h3 align="left">  1. Pet-project №1.  </h3> 
