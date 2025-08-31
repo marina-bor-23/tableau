@@ -1,9 +1,16 @@
-<h1 align="center"> TABLEAU </h1> 
+<h1 align="center"> DASHBOARDS </h1> 
 
-<h3 align="center"> Дашборды, итоговый проект (pet-project), проверка гипотез<br> | Dashboards, final project (pet-project), hypothesis testing </h3>
+<h3 align="center"> Рабочие дашборды с предыдущего места работы, итоговый проект (pet-project) после курса, проверка гипотез<br> | Work dashboards from a previous job, final project (pet-project) after the course, hypothesis testing </h3>
 
 Проекты находятся в онлайн-формате в моем <a href="https://public.tableau.com/app/profile/marinaborisenko/vizzes/">Tableau Public аккаунте.</a> 
 <br>
+
+<h3 align="left">  Дашборды с предыдущего места работы  </h3> 
+
+Дашборды-отчеты после окончания акций от отдела маркетинга: ![дашборды](https://cloud.mail.ru/public/GiM2/1FaU55wiw) <br>
+
+
+
 <h3 align="left">  1. Pet-project №1.  </h3> 
 
 Это итоговый проект с курса по анализу данных. Находится он в файле "pet-project.twbx" или в <a href="https://public.tableau.com/views/_17112963223430/GENERAL?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">онлайн-формате.</a> Работа состояла в том, чтобы проанализировать базу данных магазина, продающего по всей России технику от флешек USB до мониторов. Необходимо было найти точки роста и точки убытка (категории, регионы, орпделённые клиенты, всё, что приносит больше убытка, чем прибыли). База данных была предоставлена в файле формата .xlsx от заказчицы, она находится в файле под названием "database.xlsx". У неё же я собрала требования и показала ей намеченный скетч дашбордов.   
